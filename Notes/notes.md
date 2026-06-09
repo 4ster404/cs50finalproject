@@ -159,3 +159,6 @@ Nota: no utilizar la terminal de windows cmd, usar `gitbash`
 * Abrir el archivo de configuración global: `git config --global -e"`
 * Configuración del carácter especial crlf, windows tiene dos carácteres especiales para hacer salto de linea, cr y lf, mientras que los usuarios de apple tienen solo uno, por así decirlo el carácter global es el `lf`, así que hay que quitar el carácter cr cuando se descarga de un servidor solo sí se es de windows:  `git config --global core.autocrlf true`
 * Una vez de estar dentro de la carpeta deseada del proyecto usar `git init` para inicializar el repositorio. Usar `ls -a` para mostrar todos los archivos incluidos los que no se ven.
+* Usar git status para ver los cambios o archivos que se han añadido
+
+* git status y git add para añadir archivos, `git commit -m "(mensaje)"` para commit
