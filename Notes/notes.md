@@ -161,4 +161,4 @@ Nota: no utilizar la terminal de windows cmd, usar `gitbash`
 * Una vez de estar dentro de la carpeta deseada del proyecto usar `git init` para inicializar el repositorio. Usar `ls -a` para mostrar todos los archivos incluidos los que no se ven.
 * Usar git status para ver los cambios o archivos que se han añadido
 
-* git status y git add para añadir archivos, `git commit -m "(mensaje)"` para commit
+* git status y git add para añadir archivos, `git commit -m "(mensaje)"` para commit, también se puede usar `git commit` solamente y se abrirá el editor de texto para modificar el commit de una forma diferente.
