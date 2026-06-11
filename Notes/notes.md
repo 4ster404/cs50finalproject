@@ -164,4 +164,9 @@ Nota: no utilizar la terminal de windows cmd, usar `gitbash`
 * git status y git add para añadir archivos, `git commit -m "(mensaje)"` para commit, también se puede usar `git commit` solamente y se abrirá el editor de texto para modificar el commit de una forma diferente.
 ### Día 11 aprendiendo react
 * uso de git: `.gitignore` para ignorar archivos cuando salen con `git status`. De igual forma con `.gitignore` si hay que añadirlo a stage 
-* uso de git: `git status -s` short se usa para abreviar el proceso? `git diff` se usa para ver los cambios en los documentos
+* uso de git: `git status -s` short se usa para abreviar el proceso? `git diff` se usa para ver los cambios en los documentos, ``git diff --staged` muestra los cambios hechos en la etapa de stage.
+* uso de git: `git log --oneline` muestra el historial de modificaciones
+* uso de git: `git branch` sirve para mostrar la rama en la que se encuentra, `git checkout -b ramab` sirve para cambiar y crear una nueva rama.
+* uso de git: `git merge ramab` sirve para fusionar las ramas, en este ejemplo usando `ramab` previamente creada
+* uso de git: `git push` para subir todos los commits hechos al repositorio de git hub
+* uso de git: `git push -u origin ramaC` para añadir otra rama al repositorio de git
