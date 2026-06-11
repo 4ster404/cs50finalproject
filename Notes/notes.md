@@ -170,3 +170,7 @@ Nota: no utilizar la terminal de windows cmd, usar `gitbash`
 * uso de git: `git merge ramab` sirve para fusionar las ramas, en este ejemplo usando `ramab` previamente creada
 * uso de git: `git push` para subir todos los commits hechos al repositorio de git hub
 * uso de git: `git push -u origin ramaC` para añadir otra rama al repositorio de git
+* uso de props, destructuración `function Avatar ({size, person})` o `function Avatar(props)` refiriendose a sus propiedades y depués usandolas como `props.size` o `props.person` 
+* uso de props, pasar un argumento de una vez como por ejemplo `function Avatar ({size =100, person})`. Entonces si no se usa ningún argumento para size se le dará 100 como default value
+* uso de children al pasar etiquetas dentro de etiquetas
+* **Tratar de entender esto:**   `({awards.join(', ')})` es de javascript
