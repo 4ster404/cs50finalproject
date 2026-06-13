@@ -174,3 +174,34 @@ Nota: no utilizar la terminal de windows cmd, usar `gitbash`
 * uso de props, pasar un argumento de una vez como por ejemplo `function Avatar ({size =100, person})`. Entonces si no se usa ningún argumento para size se le dará 100 como default value
 * uso de children al pasar etiquetas dentro de etiquetas
 * **Tratar de entender esto:**   `({awards.join(', ')})` es de javascript
+
+### Día 12 aprendiendo react
+* Uso de condicionales: Condicionales para decidir como renderizar el código, ejemplo 
+```jsx
+if (isPacked) {
+  return <li className="item">{name} ✅</li>;
+}
+return <li className="item">{name}</li>;
+```
+O también con el uso del operador ternario o condicional:
+```jsx
+return (
+  <li className="item">
+    {isPacked ? name + ' ✅' : name}
+  </li>
+);
+```
+Uso del operador AND o &&
+```jsx
+return (
+  <li className="item">
+    {name} {isPacked && '✅'}
+  </li>
+);
+```
+Lo que quiere decir que si isPacked es true entonces asignar "emojiCheck"
+
+* Renderizado de listas: Es básicamente formatear listas de arrays en listas de componentes usando el método de arrays `.map()`
+* Todas los componentes generados por map deben tener una key `crypto.randomUUID()`
+* Hacer siempre mis componentes puros como fórmulas matemáticas
+* Árboles de dependencias
