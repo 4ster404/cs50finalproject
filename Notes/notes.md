@@ -205,3 +205,22 @@ Lo que quiere decir que si isPacked es true entonces asignar "emojiCheck"
 * Todas los componentes generados por map deben tener una key `crypto.randomUUID()`
 * Hacer siempre mis componentes puros como fórmulas matemáticas
 * Árboles de dependencias
+
+### Día 14 aprendiendo react
+* Uso de event handlers: su notación siempre es en camel case
+* Se pueden pasar como propiedades o parámetros propios, en vez de llamar `onClick` se puede llamar: `onSmash`
+* Cuando hay event handlers en componentes padre que también los tienen, cuando hay un evento de click esto accionará ambos event handlers (padre e hijo), esta reacción en cadena se puede detener con: `prevent...`
+* Uso de states haciendo del hook use, los states permiten renderizar el componente en función del número de estado que este posea
+* Usualmente se hace uso de la función `useState(0)` que devuelve un array de 2 puestos, el primero con el número de state y el otro con la función para cambiar el state
+```jsx
+[estado, setEstado] = useState(0);
+```
+Se maneja siempre con la sintaxis de destructuración ya que useState siempre devuelve 2 valores
+* Asignar un estado solicita un nuevo renderizado
+
+### Día 15 aprendiendo react
+* Funciones de actualización:
+```jsx
+setState(number + 1);
+setState(n => n + 1);
+```
